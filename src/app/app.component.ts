@@ -14,7 +14,9 @@ export class AppComponent implements OnInit {
   show: boolean = false;
 
   constructor() {
-    localStorage.setItem('cart', JSON.stringify(this.cart));
+    if(!localStorage.getItem('cart')){
+      localStorage.setItem('cart', JSON.stringify(this.cart));
+    }
     this.show = false;
   }
 

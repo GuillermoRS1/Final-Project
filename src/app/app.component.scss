@@ -1,3 +1,8 @@
+:host {
+    display: block;
+    position: relative;
+}
+
 .content {
     display: block;
     min-height: calc(100vh - 60px - 40px - 60px);
@@ -9,4 +14,14 @@
     .product {
         display: inline-block;
     }
+}
+
+.cart {
+    position: absolute;
+    left: 920px;
+    z-index: 100;
+    background-color: rgb(6, 233, 253);
+    color: #fff;
+    padding-left: 20px;
+    width: 100%;
 }
