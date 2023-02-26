@@ -1,32 +1,15 @@
 :host {
     display: block;
     position: relative;
+    background-image: url("/assets/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .content {
     display: block;
     min-height: calc(100vh - 60px - 40px - 60px);
     margin: 0 auto;
-    padding: 80px;
-    padding-left: 60px;
-    padding-right: 60px;
     text-align: center;
-    background-image: url("/assets/back.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-    .product {
-        display: inline-block;
-    }
-}
-
-.cart {
-    position: absolute;
-    left: 920px;
-    z-index: 100;
-    background-color: rgb(6, 233, 253);
-    color: #fff;
-    padding-left: 20px;
-    width: 100%;
 }

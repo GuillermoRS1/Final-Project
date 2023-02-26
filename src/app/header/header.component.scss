@@ -1,7 +1,7 @@
 :host {
     display: block;
     background-color: rgb(204, 53, 19);
-    height: 115px;
+    height: 120px;
     text-align: center;
     padding: 10px;
     color: rgb(255, 247, 0);
@@ -9,7 +9,7 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 60px;
-    padding-left: 5%;
+    padding-left: 2%;
 
     #logo {
         float: left;
@@ -26,11 +26,6 @@
     .cart img {
         width: 25px;
         height: 25px;
-    }
-
-    .cart span {
-        font-size: 0.8rem;
-        color: #fff;
     }
 
     nav {
@@ -52,12 +47,11 @@
         display: flex;
         align-items: center;
         background-color: #CC3513;
-        height: 65px;
-        color: #fff;
+        height: 50px;
     }
         
     .nav-links a {
-        color: #fff;
+        color: rgb(255, 247, 0);
     }
 
     .menu {
@@ -70,6 +64,8 @@
         background-color: #f85631;
         border-radius: 5px;
         transition: 0.3s ease;
+        height: 40px;
+        margin-top: 5px;
     }
         
     .menu li {
@@ -79,31 +75,8 @@
     .services {
         position: relative; 
     }
-        
-    .dropdown {
-        background-color: #CC3513;
-        padding: 1em 0;
-        position: absolute;
-        display: none;
-        border-radius: 8px;
-        top: 35px;
-    }
-        
-    .dropdown li + li {
-        margin-top: 5px;
-    }
-        
-    .dropdown li {
-        padding: 0.5em 1em;
-        width: 8em;
-        text-align: center;
-    }
-        
-    .dropdown li:hover {
-        background-color: #f85631;
-    }
-        
-    .services:hover .dropdown {
-        display: block;
+
+    a {
+        cursor: pointer;
     }
 }

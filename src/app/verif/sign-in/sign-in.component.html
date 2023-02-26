@@ -1,0 +1,25 @@
+<app-header></app-header>
+<div class="displayTable">
+  <div class="displayTableCell">
+    <div class="wrapper">
+      <form class="login">
+        <p class="title">Sign In</p>
+        <div class="formGroup">
+          <input type="text" class="formControl" placeholder="Username" #userName required>
+        </div>        
+        <i class="fa fa-user"></i>
+        <div class="formGroup">
+          <input type="password" class="formControl" placeholder="Password" #userPassword required>
+        </div>        
+        <i class="fa fa-key"></i>
+        <a routerLink="/forgot-password">Forgot your password?</a><br>
+        <a>Don't have an account?<span class="redirect" routerLink="/register-user"> Sign Up</span></a>
+        <p type="button" class="logBtn" (click)="authService.SignIn(userName.value, userPassword.value)">
+          <span class="state">Log in</span>
+        </p>
+        <input type="button" class="button" value="Log in with Google" (click)="authService.GoogleAuth()">
+      </form>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,46 @@
+[{
+    "category": "Category",
+    "description": "Product 1 description",
+    "id": "P001",
+    "image": "assets/kelli-mcclintock-GopRYASfsOc-unsplash.jpg",
+    "name": "Product 1",
+    "price": 1000,
+    "url": "https://YOUR-FIREBASE-PROJECT.firebaseio.com/products.json"
+},
+{
+    "category": "Category",
+    "description": "Product 2 description",
+    "id": "P002",
+    "image": "assets/kelli-mcclintock-GopRYASfsOc-unsplash.jpg",
+    "name": "Product 2",
+    "price": 1000,
+    "url": "https://YOUR-FIREBASE-PROJECT.firebaseio.com/products.json"
+},
+{
+    "category": "Category",
+    "description": "Product 3 description",
+    "id": "P003",
+    "image": "assets/kelli-mcclintock-GopRYASfsOc-unsplash.jpg",
+    "name": "Product 3",
+    "price": 1000,
+    "url": "https://YOUR-FIREBASE-PROJECT.firebaseio.com/products.json"
+},
+{
+    "category": "Category",
+    "description": "Product 4 description",
+    "id": "P004",
+    "image": "assets/kelli-mcclintock-GopRYASfsOc-unsplash.jpg",
+    "name": "Product 4",
+    "price": 1000,
+    "url": "https://YOUR-FIREBASE-PROJECT.firebaseio.com/products.json"
+},
+{
+    "category": "Category",
+    "description": "Product 5 description",
+    "id": "P005",
+    "image": "assets/kelli-mcclintock-GopRYASfsOc-unsplash.jpg",
+    "name": "Product 5",
+    "price": 1000,
+    "url": "https://YOUR-FIREBASE-PROJECT.firebaseio.com/products.json"
+}
+]
