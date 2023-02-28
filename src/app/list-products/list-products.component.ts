@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { debounceTime, Observable } from 'rxjs';
-import { FormControl } from '@angular/forms';
-import { query } from '@angular/animations';
+import { Observable } from 'rxjs';
 
 interface Product {
   id: string;
