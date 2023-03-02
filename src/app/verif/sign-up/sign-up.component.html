@@ -2,6 +2,7 @@
 <div class="displayTable">
     <div class="displayTableCell">
       <div class="wrapper">
+        <!-- Print form to be able to sign up a new user -->
         <form class="register">
           <p class="title">Sign Up</p>
           <div class="formGroup">
@@ -16,6 +17,7 @@
           <p type="button" class="signBtn" (click)="authService.SignUp(userEmail.value, userPwd.value)">
             <span class="state">Sign Up</span>
           </p>
+          <!-- Button to sign up with google -->
           <input type="button" class="button" value="Continue with Google" (click)="authService.GoogleAuth()"/>
         </form>
       </div>

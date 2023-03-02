@@ -1,35 +1,30 @@
 <app-header></app-header>
-	<div class="content">
-		<div class="contactCont">
-			<h2>
-                <img src="/assets/iconCircle.png" alt="">
-			</h2>
-			<p class="description">
-				If you have any questions, do not hesitate to contact us to help you in the best way.
-			</p>
-			<hr>
-			<div class="clientContent">
-				<div class="left">
-					<p class="descriptionPage">
-						Enter your data in case you want to send us a message, otherwise you can contact us by mail or by phone.<br>
-						Phone number: <strong>(05) 5482 1649</strong><br>
-						Email address: <strong><a href="mailto: spaininyou@gmail.com" class="contact-email">spaininyou@gmail.com</a></strong>
-					</p>
-				</div>	
-				<div class="right">
-					<form action="https://formsubmit.co/spaininyou@gmail.com" method="POST">
-						<input type="text" name="name" placeholder="Enter your name" class="message-name">
-						<br>
-						<input type="email" name="email" placeholder="Enter your email" class="message-email">
-
-						<input type="text" name="subject" placeholder="Enter the subject" class="message-email"><br>
-
-						<textarea name="message" placeholder="Enter your message " class="message-name"></textarea><br>
-
-						<input type="submit" name="enviar" value="Send message">
-					</form>
-				</div>
+<div class="content">
+	<div class="contactCont">
+		<!-- Put icon and a short description -->
+		<h2><img src="/assets/iconCircle.png" alt=""></h2>
+		<p class="description">If you have any questions, do not hesitate to contact us to help you in the best way.</p>
+		<hr>
+		<div class="clientContent">
+			<!-- Show contact info of the shop -->
+			<div class="left">
+				<p class="descriptionPage">
+					Enter your data in case you want to send us a message, otherwise you can contact us by mail or by phone.<br>
+					Phone number: <strong>(05) 5482 1649</strong><br>
+					Email address: <strong><a href="mailto: spaininyou@gmail.com"class="contact-email">spaininyou@gmail.com</a></strong>
+				</p>
+			</div>
+			<!-- Show the form to send a message to the shop mail -->
+			<div class="right">
+				<form action="https://formsubmit.co/spaininyou@gmail.com" method="POST">
+					<input type="text" name="name" placeholder="Enter your name" class="message-name"><br>
+					<input type="email" name="email" placeholder="Enter your email" class="message-email">
+					<input type="text" name="subject" placeholder="Enter the subject" class="message-email"><br>
+					<textarea name="message" placeholder="Enter your message " class="message-name"></textarea><br>
+					<input type="submit" name="enviar" value="Send message">
+				</form>
 			</div>
 		</div>
 	</div>
+</div>
 <app-footer></app-footer>

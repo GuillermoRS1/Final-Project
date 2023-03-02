@@ -2,18 +2,20 @@
 <div class="displayTable">
     <div class="displayTableCell">
       <div class="wrapper">
+        <!-- Show some message to the user -->
         <form class="verify">
           <h3>Thank you for sign up</h3> 
           <div class="formGroup" *ngIf="authService.userData as user">
             <p class="text-center">We have sent a confirmation email to <strong>{{user.email}}</strong>.</p>
             <p class="text-center">Please check your email and click on the link to verfiy your email address.</p>
           </div>
-          
+          <!-- Button to send the verification email again -->
           <button type="button" class="button" (click)="authService.SendVerificationMail()">
             <i class="fas fa-redo-alt"></i>
             Resend Verification Email
           </button>
           <br>
+          <!-- Link to redirect to the sign in page -->
           <a>Go back to?        
             <span><span class="redirect" routerLink="/sign-in"> Sign in</span></span>
           </a>

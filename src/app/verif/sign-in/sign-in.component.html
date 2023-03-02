@@ -2,6 +2,7 @@
 <div class="displayTable">
   <div class="displayTableCell">
     <div class="wrapper">
+      <!-- Print form to be able to sign in an existing user -->
       <form class="login">
         <p class="title">Sign In</p>
         <div class="formGroup">
@@ -17,6 +18,7 @@
         <p type="button" class="logBtn" (click)="authService.SignIn(userName.value, userPassword.value)">
           <span class="state">Log in</span>
         </p>
+        <!-- Button to sign in with google -->
         <input type="button" class="button" value="Log in with Google" (click)="authService.GoogleAuth()">
       </form>
     </div>

@@ -1,4 +1,5 @@
 <app-header></app-header>
+<!-- Put the nav with the different communities of Spain to be able to choose products by communitie -->
 <nav>
     <ul>
         <li><a>Places</a>
@@ -34,12 +35,14 @@
     </ul>
 </nav>
 
+<!-- Print the different products that are create in the database -->
 <ng-container class="container" *ngFor="let item of filterCategory">
     <div class="product">
         <h1 class="card-title">{{ item.name }}</h1>
         <img [src]="item.image" [alt]="item.name">
         <span class="category text-muted" style="Display:none;">{{ item.category | uppercase }}</span>
         <p class="card-text">{{ item.description }}</p>
+        <!-- Button to add the product selected to the cart -->
         <div id="bottom" class="d-flex justify-content-between align-content-center">
             <span class="font-weight-bold">{{ item.price | currency }}</span>
             <button class="btn btn-dark snipcart-add-item" [attr.data-item-id]="item.id" [attr.data-item-price]="item.price" [attr.data-item-description]="item.description" [attr.data-item-image]="item.image" [attr.data-item-name]="item.name"
