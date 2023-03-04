@@ -90,6 +90,7 @@ body {
     display: block;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
   }
   
   .button {
@@ -108,5 +109,6 @@ body {
     border: 0px solid rgba(0,0,0,0.1);
     border-radius: 0 0 4px 4px;
     margin-bottom: 0;
+    cursor: pointer;
   }
 }
